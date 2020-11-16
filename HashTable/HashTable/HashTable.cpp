@@ -98,7 +98,20 @@ void HashTable::deleteNode(int key)
 
 std::string HashTable::SearchNode(int key)
 {
-    return std::string();
+    // find the hash value
+    int hashValue = hashFunction(key);
+        
+    // find the node
+    auto *hashNode = table[hashValue];
+    while (hashNode->key != key)
+    {
+        hashNode = hashNode->next;
+    }
+    std::cout << "found hash value: " << hashValue << std::endl;
+    std::cout << "key: " << hashNode->key << std::endl;
+    std::cout << "value: " << hashNode->value << std::endl;
+    
+    return hashNode->value;
 }
 
 void HashTable::printTable()
