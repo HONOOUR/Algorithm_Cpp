@@ -30,6 +30,7 @@
 		C265F5C22562C9D700C94A10 /* AdjacencyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjacencyList.h; sourceTree = "<group>"; };
 		C265F5C32562CA8500C94A10 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		C265F5C42562CBCB00C94A10 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		C2A3B37925692D6B00DF4D52 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				C265F5C22562C9D700C94A10 /* AdjacencyList.h */,
 				C265F5C32562CA8500C94A10 /* Node.h */,
 				C265F5C42562CBCB00C94A10 /* Graph.cpp */,
+				C2A3B37925692D6B00DF4D52 /* Constants.h */,
 			);
 			path = Graph;
 			sourceTree = "<group>";

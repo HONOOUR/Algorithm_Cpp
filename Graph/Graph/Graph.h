@@ -10,16 +10,22 @@
 #define Graph_h
 
 #include "AdjacencyList.h"
+#include "Constants.h"
 
+#include <vector>
 
 class Graph
 {
 public:
-    void initializeGraph();
-    void DestroyGraph();
-    void AddEdge();
+    Graph();
+    void initializeGraph(int vertexNumber);
+    void destroyGraph();
+    void addEdge(vertexConstants vertexNameFrom, vertexConstants vertexNameTo);
     void ShowGraph();
-}
+private:
+    int converVertexNameToNum(vertexConstants name);
+    std::vector<adjacencyList> adjacencyListGraph;
+};
 // initialize graph
 
 // destroy graph

@@ -10,10 +10,11 @@
 #define AdjacencyList_h
 
 #include "Node.h"
+#include <vector>
 
 struct adjacencyList {
     int vertexNum;
     int edgeNum;
-    Node * node;
-}
+    HashNode *list;
+};
 #endif /* AdjacencyList_h */

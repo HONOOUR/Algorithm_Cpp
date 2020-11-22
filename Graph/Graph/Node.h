@@ -9,10 +9,12 @@
 #ifndef Node_h
 #define Node_h
 
+#include "Constants.h"
+
 #include <string>
 
 struct HashNode {
-    std::string vertexName;
+    vertexConstants vertexName;
     HashNode* before;
     HashNode* next;
     HashNode* tail;
