@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C265F5BB2562C8AF00C94A10 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C265F5BA2562C8AF00C94A10 /* main.cpp */; };
 		C265F5C52562CBCB00C94A10 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C265F5C42562CBCB00C94A10 /* Graph.cpp */; };
+		C2A3B37C256D3CE800DF4D52 /* GraphImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2A3B37A256D3CE800DF4D52 /* GraphImpl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		C265F5C32562CA8500C94A10 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		C265F5C42562CBCB00C94A10 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		C2A3B37925692D6B00DF4D52 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C2A3B37A256D3CE800DF4D52 /* GraphImpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphImpl.cpp; sourceTree = "<group>"; };
+		C2A3B37B256D3CE800DF4D52 /* GraphImpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphImpl.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				C265F5C32562CA8500C94A10 /* Node.h */,
 				C265F5C42562CBCB00C94A10 /* Graph.cpp */,
 				C2A3B37925692D6B00DF4D52 /* Constants.h */,
+				C2A3B37A256D3CE800DF4D52 /* GraphImpl.cpp */,
+				C2A3B37B256D3CE800DF4D52 /* GraphImpl.hpp */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			files = (
 				C265F5C52562CBCB00C94A10 /* Graph.cpp in Sources */,
 				C265F5BB2562C8AF00C94A10 /* main.cpp in Sources */,
+				C2A3B37C256D3CE800DF4D52 /* GraphImpl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
