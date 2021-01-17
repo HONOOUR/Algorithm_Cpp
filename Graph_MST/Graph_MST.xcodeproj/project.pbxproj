@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C26927A325B3E33700EC2AEC /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26927A225B3E33700EC2AEC /* Prim.cpp */; };
 		C2DBFE8A25B0715300BEC98E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DBFE8925B0715300BEC98E /* main.cpp */; };
 		C2DBFE9225B071DB00BEC98E /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DBFE9025B071DB00BEC98E /* Kruskal.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C26927A225B3E33700EC2AEC /* Prim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
 		C2DBFE8625B0715300BEC98E /* Graph_MST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph_MST; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DBFE8925B0715300BEC98E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C2DBFE9025B071DB00BEC98E /* Kruskal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				C2DBFE8925B0715300BEC98E /* main.cpp */,
 				C2DBFE9025B071DB00BEC98E /* Kruskal.cpp */,
+				C26927A225B3E33700EC2AEC /* Prim.cpp */,
 			);
 			path = Graph_MST;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26927A325B3E33700EC2AEC /* Prim.cpp in Sources */,
 				C2DBFE8A25B0715300BEC98E /* main.cpp in Sources */,
 				C2DBFE9225B071DB00BEC98E /* Kruskal.cpp in Sources */,
 			);

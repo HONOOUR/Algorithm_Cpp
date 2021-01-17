@@ -9,18 +9,6 @@
 #include <iostream>
 #include <vector>
 
-class Vertices
-{
-public:
-    Vertices(int v)
-    {
-        vertex = v;
-    }
-    Vertices *root;
-private:
-    int vertex;
-};
-
 class Kruskal
 {
 public:
