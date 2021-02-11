@@ -12,7 +12,7 @@
 class Kruskal
 {
 public:
-    int shortestPathLenth(std::vector<std::vector<int>>& graph)
+    int shortestPathLength(std::vector<std::vector<int>>& graph)
     {
         int size = graph.size();
         sets.resize(size);

@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C26927A325B3E33700EC2AEC /* Prim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26927A225B3E33700EC2AEC /* Prim.cpp */; };
-		C2DBFE8A25B0715300BEC98E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DBFE8925B0715300BEC98E /* main.cpp */; };
-		C2DBFE9225B071DB00BEC98E /* Kruskal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2DBFE9025B071DB00BEC98E /* Kruskal.cpp */; };
-		C2F2091C25BDB4D4000BF39F /* FloydWarshall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2F2091B25BDB4D4000BF39F /* FloydWarshall.cpp */; };
+		C2F5D00D25C301FA00B19CCD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D00C25C301FA00B19CCD /* main.cpp */; };
+		C2F5D01525C6F72400B19CCD /* HuffmanCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D01325C6F72400B19CCD /* HuffmanCoding.cpp */; };
+		C2F5D01825C6FD2700B19CCD /* Run.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2F5D01625C6FD2700B19CCD /* Run.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C2DBFE8425B0715300BEC98E /* CopyFiles */ = {
+		C2F5D00725C301FA00B19CCD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,15 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C26927A225B3E33700EC2AEC /* Prim.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prim.cpp; sourceTree = "<group>"; };
-		C2DBFE8625B0715300BEC98E /* Graph_MST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph_MST; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2DBFE8925B0715300BEC98E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C2DBFE9025B071DB00BEC98E /* Kruskal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
-		C2F2091B25BDB4D4000BF39F /* FloydWarshall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FloydWarshall.cpp; sourceTree = "<group>"; };
+		C2F5D00925C301FA00B19CCD /* Huffman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Huffman; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F5D00C25C301FA00B19CCD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C2F5D01325C6F72400B19CCD /* HuffmanCoding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HuffmanCoding.cpp; sourceTree = "<group>"; };
+		C2F5D01425C6F72400B19CCD /* HuffmanCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuffmanCoding.h; sourceTree = "<group>"; };
+		C2F5D01625C6FD2700B19CCD /* Run.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Run.cpp; sourceTree = "<group>"; };
+		C2F5D01725C6FD2700B19CCD /* Run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2DBFE8325B0715300BEC98E /* Frameworks */ = {
+		C2F5D00625C301FA00B19CCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,68 +44,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2DBFE7D25B0715300BEC98E = {
+		C2F5D00025C301FA00B19CCD = {
 			isa = PBXGroup;
 			children = (
-				C2DBFE8825B0715300BEC98E /* Graph_MST */,
-				C2DBFE8725B0715300BEC98E /* Products */,
+				C2F5D00B25C301FA00B19CCD /* Huffman */,
+				C2F5D00A25C301FA00B19CCD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2DBFE8725B0715300BEC98E /* Products */ = {
+		C2F5D00A25C301FA00B19CCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBFE8625B0715300BEC98E /* Graph_MST */,
+				C2F5D00925C301FA00B19CCD /* Huffman */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2DBFE8825B0715300BEC98E /* Graph_MST */ = {
+		C2F5D00B25C301FA00B19CCD /* Huffman */ = {
 			isa = PBXGroup;
 			children = (
-				C2DBFE8925B0715300BEC98E /* main.cpp */,
-				C2DBFE9025B071DB00BEC98E /* Kruskal.cpp */,
-				C26927A225B3E33700EC2AEC /* Prim.cpp */,
-				C2F2091B25BDB4D4000BF39F /* FloydWarshall.cpp */,
+				C2F5D00C25C301FA00B19CCD /* main.cpp */,
+				C2F5D01325C6F72400B19CCD /* HuffmanCoding.cpp */,
+				C2F5D01425C6F72400B19CCD /* HuffmanCoding.h */,
+				C2F5D01625C6FD2700B19CCD /* Run.cpp */,
+				C2F5D01725C6FD2700B19CCD /* Run.h */,
 			);
-			path = Graph_MST;
+			path = Huffman;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2DBFE8525B0715300BEC98E /* Graph_MST */ = {
+		C2F5D00825C301FA00B19CCD /* Huffman */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2DBFE8D25B0715300BEC98E /* Build configuration list for PBXNativeTarget "Graph_MST" */;
+			buildConfigurationList = C2F5D01025C301FA00B19CCD /* Build configuration list for PBXNativeTarget "Huffman" */;
 			buildPhases = (
-				C2DBFE8225B0715300BEC98E /* Sources */,
-				C2DBFE8325B0715300BEC98E /* Frameworks */,
-				C2DBFE8425B0715300BEC98E /* CopyFiles */,
+				C2F5D00525C301FA00B19CCD /* Sources */,
+				C2F5D00625C301FA00B19CCD /* Frameworks */,
+				C2F5D00725C301FA00B19CCD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Graph_MST;
-			productName = Graph_MST;
-			productReference = C2DBFE8625B0715300BEC98E /* Graph_MST */;
+			name = Huffman;
+			productName = Huffman;
+			productReference = C2F5D00925C301FA00B19CCD /* Huffman */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2DBFE7E25B0715300BEC98E /* Project object */ = {
+		C2F5D00125C301FA00B19CCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = jieunChoi;
 				TargetAttributes = {
-					C2DBFE8525B0715300BEC98E = {
+					C2F5D00825C301FA00B19CCD = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = C2DBFE8125B0715300BEC98E /* Build configuration list for PBXProject "Graph_MST" */;
+			buildConfigurationList = C2F5D00425C301FA00B19CCD /* Build configuration list for PBXProject "Huffman" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,32 +114,31 @@
 				en,
 				Base,
 			);
-			mainGroup = C2DBFE7D25B0715300BEC98E;
-			productRefGroup = C2DBFE8725B0715300BEC98E /* Products */;
+			mainGroup = C2F5D00025C301FA00B19CCD;
+			productRefGroup = C2F5D00A25C301FA00B19CCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2DBFE8525B0715300BEC98E /* Graph_MST */,
+				C2F5D00825C301FA00B19CCD /* Huffman */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2DBFE8225B0715300BEC98E /* Sources */ = {
+		C2F5D00525C301FA00B19CCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26927A325B3E33700EC2AEC /* Prim.cpp in Sources */,
-				C2DBFE8A25B0715300BEC98E /* main.cpp in Sources */,
-				C2F2091C25BDB4D4000BF39F /* FloydWarshall.cpp in Sources */,
-				C2DBFE9225B071DB00BEC98E /* Kruskal.cpp in Sources */,
+				C2F5D01825C6FD2700B19CCD /* Run.cpp in Sources */,
+				C2F5D00D25C301FA00B19CCD /* main.cpp in Sources */,
+				C2F5D01525C6F72400B19CCD /* HuffmanCoding.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C2DBFE8B25B0715300BEC98E /* Debug */ = {
+		C2F5D00E25C301FA00B19CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		C2DBFE8C25B0715300BEC98E /* Release */ = {
+		C2F5D00F25C301FA00B19CCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +247,7 @@
 			};
 			name = Release;
 		};
-		C2DBFE8E25B0715300BEC98E /* Debug */ = {
+		C2F5D01125C301FA00B19CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		C2DBFE8F25B0715300BEC98E /* Release */ = {
+		C2F5D01225C301FA00B19CCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2DBFE8125B0715300BEC98E /* Build configuration list for PBXProject "Graph_MST" */ = {
+		C2F5D00425C301FA00B19CCD /* Build configuration list for PBXProject "Huffman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2DBFE8B25B0715300BEC98E /* Debug */,
-				C2DBFE8C25B0715300BEC98E /* Release */,
+				C2F5D00E25C301FA00B19CCD /* Debug */,
+				C2F5D00F25C301FA00B19CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2DBFE8D25B0715300BEC98E /* Build configuration list for PBXNativeTarget "Graph_MST" */ = {
+		C2F5D01025C301FA00B19CCD /* Build configuration list for PBXNativeTarget "Huffman" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2DBFE8E25B0715300BEC98E /* Debug */,
-				C2DBFE8F25B0715300BEC98E /* Release */,
+				C2F5D01125C301FA00B19CCD /* Debug */,
+				C2F5D01225C301FA00B19CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C2DBFE7E25B0715300BEC98E /* Project object */;
+	rootObject = C2F5D00125C301FA00B19CCD /* Project object */;
 }

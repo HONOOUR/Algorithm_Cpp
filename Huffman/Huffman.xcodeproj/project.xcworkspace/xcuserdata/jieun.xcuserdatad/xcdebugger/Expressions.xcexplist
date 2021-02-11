@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "huffmanCoding::createHuffmanTree():HuffmanCoding.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "huffmanCoding::assignCodewords(run&amp;, int, int):HuffmanCoding.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(root-&gt;left)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
