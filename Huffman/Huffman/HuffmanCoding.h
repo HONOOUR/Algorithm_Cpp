@@ -24,11 +24,11 @@ public:
     void compressFile(std::string file);
 private:
     void collectRuns(std::string file);
-    void outPutFrequencies(std::string file);
+    void outPutFrequencies(std::ifstream &ifs, std::ofstream &ofs);
     void createHuffmanTree();
     void assignCodewords(run &theRoot, int codeword, int length);
     void storeRunsIntoHashMap(run &theRoot);
-    void encode(std::string file);
+    void encode(std::ifstream &ifs, std::ofstream &ofs);
 
     std::vector<run> totalRuns;
     std::queue<run> pQueue;

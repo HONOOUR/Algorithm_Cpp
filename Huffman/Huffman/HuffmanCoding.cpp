@@ -10,16 +10,23 @@
 #include <algorithm>
 #include <queue>
 #include <vector>
+#include <fstream>
+#include <iostream>
 
 void huffmanCoding::compressFile(std::string file)
 {
+    std::ofstream ofs ("text.txt", std::ofstream::binary);
+    std::ifstream ifs ("text.txt", std::ifstream::binary);
+    // run to vector<run>
     collectRuns(file);
-    outPutFrequencies(file);
+    // run information to header
+    outPutFrequencies(ifs, ofs);
+    // for shorter codeword and its length to high frequency word
     createHuffmanTree();
     assignCodewords(*root, 0, 0);
     storeRunsIntoHashMap(*root);
     //시작위치로
-    encode(file);
+    encode(ifs, ofs);
 }
 
 void huffmanCoding::collectRuns(std::string file)
@@ -60,12 +67,15 @@ void huffmanCoding::collectRuns(std::string file)
 }
 
 // header info
-void huffmanCoding::outPutFrequencies(std::string file)
+void huffmanCoding::outPutFrequencies(std::ifstream &ifs, std::ofstream &ofs)
 {
+
+//    ofs.open("text.txt");
+    ofs << totalRuns.size() << std::endl;
     for (auto &run: totalRuns)
     {
-        run.symbol;
-        run.frequency;
+        ofs << run.symbol << std::endl;
+        ofs << run.frequency <<std::endl;
     }
 }
 
@@ -149,7 +159,36 @@ void huffmanCoding::storeRunsIntoHashMap(run &theRoot)
         storeRunsIntoHashMap(*(theRoot.right));
     }
 }
-void huffmanCoding::encode(std::string file)
+void huffmanCoding::encode(std::ifstream &ifs, std::ofstream &ofs)
 {
-    
+    for (int i=0; i<MAX; i++)
+    {
+        char buffer =0;
+        int length;
+        
+        if (hashTable[i]!=nullptr)
+        {
+            auto codeword = hashTable[i]->codeword;
+            length += hashTable[i]->codewordLength;
+            // or operation 0x0 | codeword
+            // shift it to left with the size of codeword length
+            // repeat util the size of buffer and length
+
+            if (length<8)
+            {
+                buffer << hashTable[i]->codewordLength;
+                buffer = buffer | codeword;
+            }
+            else
+            {
+                buffer << sizeof(char)-length;
+                int unused = (hashTable[i]->codewordLength)-(sizeof(char)-length);
+                auto temp = codeword >> unused;
+                buffer = buffer | codeword;
+                // write to file
+                // the last of them to buffer
+                buffer = 0;
+            }
+        }
+    }
 }
