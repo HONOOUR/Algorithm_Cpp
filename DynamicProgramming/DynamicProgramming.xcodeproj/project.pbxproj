@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C20F000725E11D17004F06A1 /* BinominalCoefficient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20F000525E11D17004F06A1 /* BinominalCoefficient.cpp */; };
 		C20F000A25E15BFA004F06A1 /* ArrayPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20F000825E15BFA004F06A1 /* ArrayPath.cpp */; };
+		C20F000D25E48A46004F06A1 /* MatrixChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20F000B25E48A46004F06A1 /* MatrixChain.cpp */; };
 		C20FFFFF25E11B07004F06A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20FFFFE25E11B07004F06A1 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		C20F000625E11D17004F06A1 /* BinominalCoefficient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinominalCoefficient.h; sourceTree = "<group>"; };
 		C20F000825E15BFA004F06A1 /* ArrayPath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayPath.cpp; sourceTree = "<group>"; };
 		C20F000925E15BFA004F06A1 /* ArrayPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayPath.h; sourceTree = "<group>"; };
+		C20F000B25E48A46004F06A1 /* MatrixChain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixChain.cpp; sourceTree = "<group>"; };
+		C20F000C25E48A46004F06A1 /* MatrixChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixChain.h; sourceTree = "<group>"; };
 		C20FFFFB25E11B07004F06A1 /* DynamicProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20FFFFE25E11B07004F06A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				C20F000625E11D17004F06A1 /* BinominalCoefficient.h */,
 				C20F000825E15BFA004F06A1 /* ArrayPath.cpp */,
 				C20F000925E15BFA004F06A1 /* ArrayPath.h */,
+				C20F000B25E48A46004F06A1 /* MatrixChain.cpp */,
+				C20F000C25E48A46004F06A1 /* MatrixChain.h */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20F000D25E48A46004F06A1 /* MatrixChain.cpp in Sources */,
 				C20FFFFF25E11B07004F06A1 /* main.cpp in Sources */,
 				C20F000A25E15BFA004F06A1 /* ArrayPath.cpp in Sources */,
 				C20F000725E11D17004F06A1 /* BinominalCoefficient.cpp in Sources */,
