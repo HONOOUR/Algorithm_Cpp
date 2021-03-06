@@ -11,6 +11,7 @@
 		C20F000A25E15BFA004F06A1 /* ArrayPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20F000825E15BFA004F06A1 /* ArrayPath.cpp */; };
 		C20F000D25E48A46004F06A1 /* MatrixChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20F000B25E48A46004F06A1 /* MatrixChain.cpp */; };
 		C20FFFFF25E11B07004F06A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20FFFFE25E11B07004F06A1 /* main.cpp */; };
+		C2F0833325F3BD1300AD8506 /* Knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2F0833125F3BD1300AD8506 /* Knapsack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		C20F000C25E48A46004F06A1 /* MatrixChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixChain.h; sourceTree = "<group>"; };
 		C20FFFFB25E11B07004F06A1 /* DynamicProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20FFFFE25E11B07004F06A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C2F0833125F3BD1300AD8506 /* Knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knapsack.cpp; sourceTree = "<group>"; };
+		C2F0833225F3BD1300AD8506 /* Knapsack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knapsack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				C20F000925E15BFA004F06A1 /* ArrayPath.h */,
 				C20F000B25E48A46004F06A1 /* MatrixChain.cpp */,
 				C20F000C25E48A46004F06A1 /* MatrixChain.h */,
+				C2F0833125F3BD1300AD8506 /* Knapsack.cpp */,
+				C2F0833225F3BD1300AD8506 /* Knapsack.h */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				C20FFFFF25E11B07004F06A1 /* main.cpp in Sources */,
 				C20F000A25E15BFA004F06A1 /* ArrayPath.cpp in Sources */,
 				C20F000725E11D17004F06A1 /* BinominalCoefficient.cpp in Sources */,
+				C2F0833325F3BD1300AD8506 /* Knapsack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
